@@ -1,1 +1,15 @@
+name: "Delete Created Branches"
+description: "Deletes Branches after tests"
 
+inputs:
+  branch01:
+    required: true
+    description: "First Branch to be Deleted"
+  branch02:
+    description: "Second Branch to be Deleted"
+  branch03:
+    description: "Third Branch to be Deleted
+
+runs:
+  using: "composite"
+  if: 
